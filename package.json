@@ -1,7 +1,7 @@
 {
   "name": "upit",
   "version": "0.1.0",
-  "description": "",
+  "description": "upload your file to upyun",
   "main": "index.js",
   "bin": {
     "upit": "./bin/upit.js"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:yuwancumian/upit.git"
+    "url": "git@github.com:yuwancumian/upyun-upload.git"
   },
   "keywords": [
     "keyword1",
@@ -20,9 +20,9 @@
   "author": "yuwancumian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuwancumian/upit/issues"
+    "url": "https://github.com/yuwancumian/upyun-upload/issues"
   },
-  "homepage": "https://github.com/yuwancumian/upit",
+  "homepage": "https://github.com/yuwancumian/upyun-upload",
   "dependencies": {
     "chalk": "^1.1.1",
     "cliparoo": "^1.1.1",
