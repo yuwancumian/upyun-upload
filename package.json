@@ -1,17 +1,17 @@
 {
-  "name": "youcanyouup",
+  "name": "upit",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "eput": "./bin/eput.js"
+    "upit": "./bin/upit.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:yuwancumian/youcanyouup.git"
+    "url": "git@github.com:yuwancumian/upit.git"
   },
   "keywords": [
     "keyword1",
@@ -20,10 +20,12 @@
   "author": "yuwancumian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuwancumian/youcanyouup/issues"
+    "url": "https://github.com/yuwancumian/upit/issues"
   },
-  "homepage": "https://github.com/yuwancumian/youcanyouup",
+  "homepage": "https://github.com/yuwancumian/upit",
   "dependencies": {
+    "chalk": "^1.1.1",
+    "cliparoo": "^1.1.1",
     "shelljs": "^0.5.3",
     "upyun": "^1.1.3",
     "upyun-classic": "^1.0.2",

@@ -2,6 +2,8 @@
 require('shelljs/global');
 var Upyun = require('upyun-classic');
 var cfg = require('../config');
+var clip = require('cliparoo');
+var chalk = require('chalk');
 
 var filename = process.argv[2];
 
@@ -31,7 +33,11 @@ else {
     upyun.uploadFile('/libs/'+filename, filename, String, false, function(err,result){
         if (err) throw err;
         else {
-            console.log(result)
+            clip('http://egetjs.b0.upaiyun.com/libs/' + filename,function(err){
+                if (err) throw err;
+            })
         }
+        console.log(chalk.green("Uploaded!" ));
+        console.log(chalk.gray("Url was copied to your clipboard!"));
     })
 }
