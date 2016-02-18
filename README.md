@@ -12,11 +12,11 @@ of course ,you need write a config  like this
 
 {
 
-​       "bucket":  bucket name,
+    "bucket":  bucket name,
 
-​       "operator": your username,
+    "operator": your username,
 
-​       "password": your password
+    "password": your password
 
   }
 
