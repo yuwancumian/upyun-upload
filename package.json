@@ -1,6 +1,6 @@
 {
   "name": "upit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "upload your file to upyun",
   "main": "index.js",
   "bin": {
@@ -14,8 +14,9 @@
     "url": "git@github.com:yuwancumian/upyun-upload.git"
   },
   "keywords": [
-    "keyword1",
-    "keyword2"
+    "upyun",
+    "upload",
+    "cli-tools"
   ],
   "author": "yuwancumian",
   "license": "MIT",

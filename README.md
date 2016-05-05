@@ -8,15 +8,11 @@
 
 `upit filename.js`
 
-of course ,you need write a config  like this
+Of course ,you need write a config.json  like this
 
 {
-
     "bucket":  bucket name,
-
     "operator": your username,
-
     "password": your password
-
-  }
+}
 
